@@ -1,32 +1,5 @@
 "use strict";
 
-//Min
-
-// 1. Створення змінних для імені та прізвища
-let firstName = "Олексій";
-let lastName = "Харакоз";
-const middleName = "Андрійович";
-var nickName = "Freedom";
-
-// Неправильні імена (закоментовані)
-// let 1name = "Олексій"; // не може починатися з числа
-// let first-name = "Олексій"; // дефіс не дозволено
-// let alert = "Що це?"; // зарезервоване слово
-// let my name = "Олексій"; // пробіл не дозволено
-// let @name = "Олексій"; // спеціальні символи не дозволено
-
-// 2. Коментарі
-// Однорядковий коментар
-/* 
-Багаторядковий коментар
-*/
-
-// 3. Стилі написання імен змінних
-let camelCaseExample = "camelCase";
-let snake_case_example = "snake_case";
-let PascalCaseExample = "PascalCase";
-let UPPERCASE_EXAMPLE = "UPPERCASE";
-
 //Norm — теперь всё выполняется по кнопке
 const greetBtn = document.getElementById("greetBtn");
 
