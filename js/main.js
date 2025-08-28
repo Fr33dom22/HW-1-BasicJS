@@ -1,9 +1,6 @@
 "use strict";
 
-//Norm — теперь всё выполняется по кнопке
-const greetBtn = document.getElementById("greetBtn");
-
-greetBtn.addEventListener("click", function () {
+function runHomework() {
   let userName = prompt("Введіть своє ім'я:");
   alert(`Привіт, ${userName}!`);
 
@@ -15,4 +12,9 @@ greetBtn.addEventListener("click", function () {
   let sideLength = parseFloat(prompt("Введіть довжину сторони квадрата:"));
   let perimeter = sideLength * 4;
   alert(`Периметр квадрата: ${perimeter}`);
-});
+}
+
+runHomework();
+
+const greetBtn = document.getElementById("greetBtn");
+greetBtn.addEventListener("click", runHomework);
